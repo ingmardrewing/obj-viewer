@@ -15,6 +15,10 @@
 		A026655C2593B66A006580C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02665312593B668006580C6 /* ContentView.swift */; };
 		A026655D2593B66A006580C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02665322593B669006580C6 /* Assets.xcassets */; };
 		A026655E2593B66A006580C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02665322593B669006580C6 /* Assets.xcassets */; };
+		A088DB012593BF01006D1CEE /* TestScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = A088DB002593BF01006D1CEE /* TestScene.scn */; };
+		A088DB022593BF01006D1CEE /* TestScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = A088DB002593BF01006D1CEE /* TestScene.scn */; };
+		A088DB0C2593C18F006D1CEE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A088DB0B2593C18F006D1CEE /* art.scnassets */; };
+		A088DB0D2593C18F006D1CEE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A088DB0B2593C18F006D1CEE /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		A02665522593B669006580C6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02665562593B669006580C6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A02665582593B669006580C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A088DB002593BF01006D1CEE /* TestScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = TestScene.scn; sourceTree = "<group>"; };
+		A088DB0B2593C18F006D1CEE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 				A02665302593B668006580C6 /* obj_displayApp.swift */,
 				A02665312593B668006580C6 /* ContentView.swift */,
 				A02665322593B669006580C6 /* Assets.xcassets */,
+				A088DB0B2593C18F006D1CEE /* art.scnassets */,
+				A088DB002593BF01006D1CEE /* TestScene.scn */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -275,6 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A088DB012593BF01006D1CEE /* TestScene.scn in Resources */,
+				A088DB0C2593C18F006D1CEE /* art.scnassets in Resources */,
 				A026655D2593B66A006580C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +293,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A088DB022593BF01006D1CEE /* TestScene.scn in Resources */,
+				A088DB0D2593C18F006D1CEE /* art.scnassets in Resources */,
 				A026655E2593B66A006580C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +483,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZVZ884J6BD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -492,6 +505,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZVZ884J6BD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
